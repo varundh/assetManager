@@ -1,7 +1,9 @@
 import os
 import nuke
 import nukescripts
-
+import autowrite
+import browseDir
+import SubmitToDeadline
 
 
 ## Loading asset manager
@@ -18,3 +20,11 @@ menu.addCommand('Project Management Settings', addManagementPanel)
 nukescripts.registerPanel( 'assetpanel', addManagementPanel)
 
 
+# Browse Directory
+nuke.menu( 'Nuke' ).addCommand( 'Scripts/Browse/Node\'s file path', "browseDir.browseDirByNode()", 'shift+b' )
+
+
+
+## Submit to Deadline
+tb = menubar.addMenu("&Submit") 
+tb.addCommand("Submit To Deadline", SubmitToDeadline.main, "")
