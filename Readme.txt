@@ -1,4 +1,4 @@
-This is a simple Asset Management tool while helps you to set your Show, episode, scene, shot appropriately.  If set correctly, the user can imput the shot number. 
+This is a simple Asset Management tool which helps you to set your Show, episode, scene, shot appropriately.  If set correctly, the user can imput the shot number. 
 The user input is connected throughout. Which will enable you to save your script in the appropriate location, save your write nodes in the right place with the proper naming convension. 
 
 
